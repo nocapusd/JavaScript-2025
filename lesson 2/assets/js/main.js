@@ -291,3 +291,7 @@ if (coursesAndDurationArray[5].monthDuration > 5) {
     console.log('Super')
 }
 
+
+
+
+
