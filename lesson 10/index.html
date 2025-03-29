@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .lesson-1, .lesson-2, .lesson-3, .lesson-4, .lesson-5, .lesson-6, .lesson-7, .lesson-8{
+      padding: 20px;
+    }
+
+    .blockSum {
+      height: 200px;
+      width: 200px;
+      background: purple;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    .uahPrinter{
+      background: blue;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+<div class="lesson-1" >
+  <div id="text">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eligendi est expedita, odit velit voluptatum!
+  </div>
+  <button class="buttonRemover">remove</button>
+</div>
+
+
+<div class="lesson-2">
+  <form name="formAge">
+    <input type="number" id="inputAge">
+    <button type="submit" name="buttonAge">check your age</button>
+  </form>
+</div>
+
+<div class="lesson-3">
+  <form name="formInner">
+    <input type="text" name="name">
+    <input type="text" name="surname">
+    <input type="number" name="age">
+    <button>submit</button>
+  </form>
+
+  <div class="target">
+
+  </div>
+</div>
+
+<div class="lesson-4">
+  <div class="blockSum">
+
+  </div>
+</div>
+
+<div class="lesson-5">
+  <input id="inputKilos" type="number">
+  <p class="result"></p>
+</div>
+
+<div class="lesson-6">
+  <form name="tableGeneratorForm">
+    <input type="number" name="tr">
+    <input type="number" name="td">
+    <input type="text" name="text">
+    <button>Generate</button>
+  </form>
+
+  <table id="table">
+
+  </table>
+</div>
+
+<div class="lesson-7">
+  <div class="uahPrinter">
+
+  </div>
+</div>
+
+<div class="lesson-8">
+  <button>prev</button>
+  <button>next</button>
+  <div class="cars"></div>
+</div>
+<script src="main.js"></script>
+</body>
